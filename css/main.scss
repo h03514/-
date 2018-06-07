@@ -1,0 +1,241 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a,
+p,
+ul,
+li {
+    font-family: Arial, Helvetica, sans-serif, Microsoft JhengHei;
+    color: black;
+}
+
+
+/*------------------------- end css rest -------------------------*/
+
+body {
+    background: #E1E1E1;
+}
+
+#wrapper {
+    background: #E1E1E1;
+}
+
+
+/*---------- header ----------*/
+
+#header {
+    width: 100%;
+    height: 76px;
+    background-color: #4A90E2;
+    li {
+        text-align: center;
+    }
+    a {
+        color: #00408B;
+        font-size: 24px;
+        line-height: 76px;
+    }
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+/*---------- /header ----------*/
+
+
+/*---------- content ----------*/
+
+.todo h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Roboto-Italic;
+    font-size: 24px;
+    color: #C8C8C8;
+}
+
+.todoTitle {
+    margin-top: 20px;
+    background: #FFF2DC;
+    height: 76px;
+    .fa-square {
+        font-size: 20px;
+        display: inline-block;
+    }
+    .todolist {
+        margin-left: 15px;
+    }
+    .todo-title {
+        line-height: 38px;
+        margin-left: 15px;
+    }
+    .todo-icon {
+        margin-left: 35px;
+    }
+}
+
+.todo {
+    margin-top: 20px;
+}
+
+.todoTitle {
+    margin-top: 20px;
+    background: #F2F2F2;
+    height: 76px;
+}
+
+.todoColor {
+    background: #FFF2DC;
+}
+
+.fa-star {
+    color: #F5A623;
+    font-size: 24px;
+    line-height: 66px;
+}
+
+.fa-pencil-alt {
+    color: #4A90E2;
+    font-size: 24px;
+    line-height: 66px;
+}
+
+
+/*---------- /content ----------*/
+
+
+/*---------- /footer ----------*/
+
+
+/*---------- /footer ----------*/

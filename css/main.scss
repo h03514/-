@@ -175,6 +175,50 @@ body {
 /*---------- /header ----------*/
 
 
+/*---------- main content ----------*/
+
+.mainContent {
+    .detailHeader {
+        box-shadow: 0 1px 1px 0 #C8C8C8;
+    }
+    margin-top: 20px;
+    >.justify-content {
+        background: #F2F2F2;
+        box-shadow: 0 4px 4px 0 #C8C8C8;
+    }
+    .detail {
+        h4 {
+            font-size: 20px;
+        }
+        margin-top: 20px;
+        padding: 0 8%;
+        .calendar,
+        .file,
+        .comment {
+            margin-right: 10px;
+        }
+        .date {
+            margin-bottom: 15px;
+        }
+        .detail_file,
+        .detail_comment {
+            margin-top: 20px;
+        }
+        .detail_comment {
+            margin-bottom: 30px;
+        }
+        .detail_input i {
+            font-size: 30px;
+            margin-top: -5px;
+            margin-left: 20px;
+        }
+    }
+}
+
+
+/*---------- /main content ----------*/
+
+
 /*---------- content ----------*/
 
 .todo h3 {
@@ -199,6 +243,9 @@ body {
     .todo-title {
         line-height: 38px;
         margin-left: 15px;
+        font-family: Roboto-Medium;
+        font-size: 24px;
+        color: #000000;
     }
     .todo-icon {
         margin-left: 35px;

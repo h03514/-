@@ -203,14 +203,38 @@ body {
         .detail_file,
         .detail_comment {
             margin-top: 20px;
-        }
-        .detail_comment {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
         .detail_input i {
             font-size: 30px;
             margin-top: -5px;
             margin-left: 20px;
+        }
+    }
+    .clickBtn {
+        li {
+            background: #FFFFFF;
+            text-align: center;
+            height: 60px;
+        }
+        li:last-child {
+            background: #4A90E2;
+        }
+        a {
+            text-decoration: none;
+            color: #D0021B;
+            line-height: 60px;
+            font-size: 24px;
+            span {
+                margin-right: 5px;
+            }
+        }
+        a:hover {
+            color: orangered;
+            transition: 0.3s ease-in-out;
+        }
+        .color {
+            color: white;
         }
     }
 }

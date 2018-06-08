@@ -205,16 +205,43 @@ body {
 .mainContent .detail .detail_file,
 .mainContent .detail .detail_comment {
   margin-top: 20px;
-}
-
-.mainContent .detail .detail_comment {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .mainContent .detail .detail_input i {
   font-size: 30px;
   margin-top: -5px;
   margin-left: 20px;
+}
+
+.mainContent .clickBtn li {
+  background: #FFFFFF;
+  text-align: center;
+  height: 60px;
+}
+
+.mainContent .clickBtn li:last-child {
+  background: #4A90E2;
+}
+
+.mainContent .clickBtn a {
+  text-decoration: none;
+  color: #D0021B;
+  line-height: 60px;
+  font-size: 24px;
+}
+
+.mainContent .clickBtn a span {
+  margin-right: 5px;
+}
+
+.mainContent .clickBtn a:hover {
+  color: orangered;
+  transition: 0.3s ease-in-out;
+}
+
+.mainContent .clickBtn .color {
+  color: white;
 }
 
 /*---------- /main content ----------*/

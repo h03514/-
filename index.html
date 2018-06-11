@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
 </head>
 
 <body>
@@ -33,12 +34,12 @@
         <div id="content ">
             <div class="container todo">
                 <div class="row ">
-                    <div class="todoList w-100">
+                    <div class="todo_List w-100">
                         <input type="text" class="form-control" placeholder=" + Add Task">
                     </div>
                 </div>
                 <div class="mainContent">
-                    <div class="row justify-content">
+                    <div class="row justify-content todo_Detail">
                         <div class="d-flex w-100 todoTitle detailHeader">
                             <div class=" mr-auto p-2 todolist">
                                 <a href="#">
@@ -81,11 +82,11 @@
                             </div>
                             <div class="detail_comment">
                                 <div class="d-flex flex-row date">
-                                    <i class="far fa-comment-dots comment p2"></i>
+                                    <i class="far fa-comment-dots commention p2"></i>
                                     <h4 class="p2">Comment</h4>
                                 </div>
-                                <div class="detail_input">
-                                    <textarea cols="40" rows="10"></textarea>
+                                <div class="detail_input ">
+                                    <textarea cols="40" rows="10" class="comment"></textarea>
                                 </div>
                             </div>
 
@@ -97,7 +98,7 @@
                                     <a href="# "><span><i class="fas fa-times"></i></span> Cancel</a>
                                 </li>
                                 <li class="col-6 flex-item ">
-                                    <a href="# " class="color"><span><i class="fas fa-plus"></i></span>Add Task</a>
+                                    <a href="# " class="color save"><span><i class="fas fa-plus"></i></span>Add Task</a>
                                 </li>
 
                             </ul>
@@ -238,6 +239,7 @@
                 <div class="container "></div>
             </div>
         </div>
+        <script src="/js/main.js"></script>
 </body>
 
 </html>

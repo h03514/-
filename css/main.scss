@@ -178,6 +178,9 @@ body {
 /*---------- main content ----------*/
 
 .mainContent {
+    .todo_Detail {
+        display: none;
+    }
     .detailHeader {
         box-shadow: 0 1px 1px 0 #C8C8C8;
     }
@@ -194,7 +197,7 @@ body {
         padding: 0 8%;
         .calendar,
         .file,
-        .comment {
+        .commention {
             margin-right: 10px;
         }
         .date {
